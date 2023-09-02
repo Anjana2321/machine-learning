@@ -1,0 +1,13 @@
+f=["orange","banana","others"]
+c=[[350,450,0,650],[400,350,300,400],[50,100,50,150]]
+l=[]
+for i in c:
+    a=1
+    for j in i[:-1]:
+        a*= j/i[-1]
+    l.append(a)
+print("therfore the fruits is",f[l.index(max(l))])
+
+
+ 
+    
